@@ -1,8 +1,0 @@
-version: '2'
-services:
-  feel-fast:
-    image: feel/fast
-    ports:
-      - "10080:10080"
-    environment:
-      - spring.profiles.active=dev
